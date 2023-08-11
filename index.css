@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+font-size: 50px;
+color: blue;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+#both{
+    display:flex;
+    justify-content: space-around;
+}
+#image{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    color: antiquewhite;
+    
+}
+img{
+ height: 400px;
+ width:300px;
+ border-radius: 50%;
+ 
+}
+.details{
+    display: grid;
+    font-size: larger;
+    align-items: center;
+    justify-items: end;
+    margin-right: 30px;
+}
+.details label{
+    height:30px;
+    margin-bottom: 27px;
+}
+.holder{
+    display: grid;
+    align-content: center;
+}
+@media only screen and (min-width:600px){
+}
+.holder input{
+    width: 300px;
+    margin-bottom: 27px;
+    height: 30px;
+}
+#two{
+    display: grid;
+    height: 400px;
+ width:300px;
+}
+.lab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+
